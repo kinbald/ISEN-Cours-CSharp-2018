@@ -51,3 +51,18 @@ Il y a 3 étapes, qui s'appellent entre elles, lors d'un build :
     
 ### Initial commit
 Créer un pojet sur Github
+Depuis la racine du projet :  
+`git init`  
+Trouver un .gitignore pour un projet .net Core :  
+https://github.com/dotnet/core/blob/master/.gitignore  
+https://gist.github.com/kmorcinek/2710267  
+Créer un fichier .gitignore :  
+`touch .gitignore`  
+Remplir ce fichier avec le contenu exemple.  
+`git add .`  
+`git commit -m "Initial commit, project structure"`  
+`git remote add origin https://github.com/kinbald/ISEN-Cours-CSharp-2018.git`  
+`git push origin master`  
+Ajouter un tag de version 0.1  
+`git tag v0.1`  
+`git push origin v0.1`
