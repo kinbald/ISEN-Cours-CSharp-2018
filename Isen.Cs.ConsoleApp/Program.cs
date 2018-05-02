@@ -1,4 +1,5 @@
 ﻿using System;
+using Isen.Cs.Library.Lessons;
 
 namespace Isen.Cs.ConsoleApp
 {
@@ -6,7 +7,8 @@ namespace Isen.Cs.ConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            A_Types aTypes = new A_Types();
+            aTypes.PrimitiveTypes();
         }
     }
 }
