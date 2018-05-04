@@ -23,7 +23,7 @@ Depuis le dossier du projet console :
 
 Ajouter au projet tests une référence vers le projet Library.  
 Depuis le dossier du projet tests :  
-`dotnet add reference ..\Isen.Cs.Library\Isen.Cs.Library.csproj` 
+`dotnet add reference ..\Isen.Cs.Library\Isen.Cs.Library.csproj`  
 Pour retirer la référence, remplacer `add` par `remove`.
 
 ### Indiquer au sln la présence des 3 projets :
@@ -91,3 +91,12 @@ Dans le projet Library, créer cette classe.
 Aperçu des passages par valeur ou par référence.  
 Ce chapitre traite des tableaux "primitifs" du style `object[]` ou `object[][]`.  
 Créer la classe C_Arrays avec une méthode d'exécution et l'appeler dans le main.  
+
+### C_MyCollection
+But : créer une classe de tableau mutable de string.  
+Ce type de classe peut être ArrayList, List, MutableArray, ..., selon les langages et API.  
+
+Créer `D_MyCollection` dans Lessons, avec méthode d'exécution et appel dans main.  
+Créer à la racine de Library une classe `MyCollection`.  
+Créer à la racine de Library une interface `IMyCollection`.  
+`MyCollection` doit implémenter l'interface `IMyCollection`.  

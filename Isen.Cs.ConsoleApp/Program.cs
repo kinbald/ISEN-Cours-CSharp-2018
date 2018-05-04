@@ -11,7 +11,9 @@ namespace Isen.Cs.ConsoleApp
 //            aTypes.PrimitiveTypes();
 //            B_Enumerations bEnumerations = new B_Enumerations();
 //            bEnumerations.RunEnumerations();
-            C_Arrays.StaticRunner();
+//            C_Arrays.StaticRunner();
+
+            D_MyCollection.Run();
         }
     }
 }
