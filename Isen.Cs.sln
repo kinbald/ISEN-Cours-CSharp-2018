@@ -12,6 +12,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sln", "sln", "{04D5A04D-F3A9-47A2-82B8-ECFD7115B208}"
 ProjectSection(SolutionItems) = preProject
 	README.md = README.md
+	LICENSE = LICENSE
+	.gitignore = .gitignore
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6C87AF38-5F38-4403-91BE-AD2A915B5196}"

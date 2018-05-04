@@ -7,8 +7,11 @@ namespace Isen.Cs.ConsoleApp
     {
         static void Main(string[] args)
         {
-            A_Types aTypes = new A_Types();
-            aTypes.PrimitiveTypes();
+//            A_Types aTypes = new A_Types();
+//            aTypes.PrimitiveTypes();
+//            B_Enumerations bEnumerations = new B_Enumerations();
+//            bEnumerations.RunEnumerations();
+            C_Arrays.StaticRunner();
         }
     }
 }

@@ -66,3 +66,28 @@ Remplir ce fichier avec le contenu exemple.
 Ajouter un tag de version 0.1  
 `git tag v0.1`  
 `git push origin v0.1`
+
+## Ajout d'exercices 'hors projet'
+
+### A_Types
+Passage en revue de tous les types primitifs.  
+Dans le projet Library :
+- Créer un dossier Lessons
+- Créer une classe 01_Types (fichier 01_Types.cs)
+
+Inclure toute la structure d'une classe :
+- `using` (import du java)
+- `namespace` (package du java)
+- `class`
+
+Coder la classe (voir code).  
+L'appeler dans le main().
+
+### B_Enumerations
+Ce chapitre passe en revue les `enum`.  
+Dans le projet Library, créer cette classe.
+
+### C_Arrays
+Aperçu des passages par valeur ou par référence.  
+Ce chapitre traite des tableaux "primitifs" du style `object[]` ou `object[][]`.  
+Créer la classe C_Arrays avec une méthode d'exécution et l'appeler dans le main.  
